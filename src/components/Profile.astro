@@ -22,16 +22,19 @@ const bio = AUTHOR.bio[lang as keyof typeof AUTHOR.bio] ?? AUTHOR.bio.en;
     </div>
 
     <div class="socials">
-        {SOCIALS.map((social) => (
-            <a
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={social.label}
-            >
-                <Icon name={social.icon} />
-            </a>
-        ))}
+        {SOCIALS.map((social) => {
+            const href = social.label === 'RSS' ? `/${lang}/rss.xml` : social.href;
+            return (
+                <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={social.label}
+                >
+                    <Icon name={social.icon} />
+                </a>
+            );
+        })}
     </div>
 </div>
 

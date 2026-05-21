@@ -66,7 +66,10 @@ export const SOCIALS = [
     label: 'Medium',
     href: 'https://medium.com/@kuscadev',
     icon: 'mdi:medium',
+  },
+  {
+    label: 'RSS',
+    href: '/rss.xml',
+    icon: 'mdi:rss',
   }
-  // Daha fazla eklemek için bu formatı kopyalayın:
-  // { label: 'RSS', href: '/rss.xml', icon: 'mdi:rss' },
 ];

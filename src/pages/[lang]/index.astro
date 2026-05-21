@@ -115,6 +115,7 @@ const archiveLabel = lang === 'tr' ? 'Tüm yazılar →' : 'All posts →';
 	ul {
 		list-style-type: none;
 		padding: 0;
+		padding-right: 4px; /* Space for the 4px hover transform */
 		flex: 1;
 		min-height: 0;
 	}
@@ -170,6 +171,7 @@ const archiveLabel = lang === 'tr' ? 'Tüm yazılar →' : 'All posts →';
 		display: flex;
 		align-items: flex-end;
 		justify-content: center; /* mobile: center */
+		pointer-events: none;
 	}
 
 	.more-link {
@@ -178,6 +180,7 @@ const archiveLabel = lang === 'tr' ? 'Tüm yazılar →' : 'All posts →';
 		text-decoration: none;
 		transition: color var(--transition-speed) ease;
 		padding: 0.25rem 0;
+		pointer-events: auto;
 	}
 
 	.more-link:hover {
