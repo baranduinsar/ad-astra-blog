@@ -65,6 +65,6 @@ export const SOCIALS = [
   {
     label: 'RSS',
     href: '/rss.xml',
-    icon: 'mdi:wireless-signal-rss-feed',
+    icon: 'mdi:rss',
   }
 ];
