@@ -40,12 +40,12 @@ export const SOCIALS = [
   {
     label: 'Loja Online',
     href: 'https://adastraartes.lojavirtualnuvem.com.br/',
-    icon: 'mdi:shop',
+    icon: 'streamline-freehand-color:shopping-bag-side',
   },
   {
     label: 'Email',
     href: 'mailto:992530936bruna@gmail.com',
-    icon: 'mdi:email',
+    icon: 'streamline-freehand-color:send-email-fly',
   },
   {
     label: 'Whatsapp',
@@ -65,6 +65,6 @@ export const SOCIALS = [
   {
     label: 'RSS',
     href: '/rss.xml',
-    icon: 'mdi:rss',
+    icon: 'streamline-freehand-color:wireless-signal-rss-feed',
   }
 ];
