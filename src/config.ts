@@ -39,28 +39,28 @@ export const AUTHOR = {
 export const SOCIALS = [
   {
     label: 'Loja Online',
-    href: 'mailto:johndoe@example.com',
-    icon: 'mdi:streamline-freehand-color:shop',
+    href: 'https://adastraartes.lojavirtualnuvem.com.br/',
+    icon: 'mdi:shop',
   },
   {
     label: 'Email',
-    href: 'https://adastraartes.lojavirtualnuvem.com.br/',
-    icon: 'mdi:streamline-freehand-color:send-email-fly',
+    href: 'mailto:992530936bruna@gmail.com',
+    icon: 'mdi:email',
   },
   {
-    label: 'LinkedIn',
+    label: 'Whatsapp',
     href: 'mailto:johndoe@example.come',
-    icon: 'mdi:linkedin',
+    icon: 'mdi:whatsapp',
   },
   {
     label: 'Facebook',
     href: 'https://x.com/example',
-    icon: 'mdi:twitter',
+    icon: 'mdi:facebook',
   },
   {
-    label: 'GitHub',
+    label: 'Instagram',
     href: 'https://github.com/example',
-    icon: 'mdi:github',
+    icon: 'mdi:instagram',
   },
   {
     label: 'RSS',
