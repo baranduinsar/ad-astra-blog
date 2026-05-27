@@ -41,7 +41,7 @@ export const SOCIALS = [
     label: 'Loja Online',
     href: 'mailto:johndoe@example.com',
     icon: 'mdi:email',
-  },
+  }
   },
   {
     label: 'Email',
@@ -62,7 +62,7 @@ export const SOCIALS = [
     label: 'GitHub',
     href: 'https://github.com/example',
     icon: 'mdi:github',
-  },
+  }
   },
   {
     label: 'RSS',
