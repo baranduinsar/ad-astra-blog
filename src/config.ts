@@ -10,10 +10,10 @@ export const SITE_CONFIG = {
   title: 'Ad Astra Blog',
 
   /** Sitenin açıklaması / Site description */
-  description: 'Um blog de Ad Astra Artes.',
+  description: 'O blog da Ad Astra Artes reúne textos sobre arte autoral, processos criativos, bordado artístico, pintura, artesanato contemporâneo, estética fantástica e imaginários mitológicos. Explore conteúdos sobre técnicas artesanais, inspiração visual, referências medievais e mágicas, bastidores das criações, decoração artística e o universo da arte handmade brasileira. Um espaço dedicado à fantasia, à criação manual e às pequenas obsessões entre sonho, técnica e expressão artística.',
 
   /** Sitenin adresi / Site URL */
-  url: 'https://adastraartes.lojavirtualnuvem.com.br/',
+  url: 'https://adastrablog.vercel.app/',
 };
 
 export const AUTHOR = {
