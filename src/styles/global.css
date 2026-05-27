@@ -60,11 +60,11 @@
 
 :root {
     /* Color Palette */
-    --bg-color: #00022b;
-    --dark: #010e54;
-    --accent: #0855b1;
-    --light: #4fa5d8;
-    --text-color: #daeaff; /* Text color with subtle ice blue tint for readability */
+    --bg-color: #091540;
+    --dark: #6574A3;
+    --accent: #7692FF;
+    --light: #ECF0F1;
+    --text-color: #ABD2FA; /* Text color with subtle ice blue tint for readability */
 
     /* Typography */
     --font-family-body: "Source Sans 3", sans-serif;
